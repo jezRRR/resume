@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    background: #f1f1f1;
+    color: #0f141e;
+}
+
+/* max-width(max razreshenie saita / margin: auto(vivodit sait na seredinu) */
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, .25);
+}
+
+.info {
+    margin-bottom: 20px;
+}
+
+
+.info-text p {
+     font-style: italic;
+     font-weight: bold;
+     color: #4b4f56;
+     margin: 0;
+}
+
+.info-text h4 {
+    margin-bottom: 15px;
+}
+
+.card {
+    border-radius: 15px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    
+}
+
+.card h1 {
+    margin-bottom: 10px;
+}
+
+
+.bg-green {
+    background: rgb(228, 250, 195);
+}
+
+.bg-red {
+    background: rgb(255, 140, 140);
+}
+
+.btn {
+    background: #C0C0C0;
+    padding: 4px 15px;
+    border-radius: 3.5px;
+    cursor: pointer;
+    border: .1px solid;
+    font-family: inherit;
+}
+
+.btn:hover {
+    opacity: .6;
+    color: gray;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: orange;
+}
+
+a:active {
+    color: blue;
+}
+
+/* a:visited {
+    color: red;
+} */
+
+.list {
+    padding: 0 20px;
+    list-style: disc;
+}
+
+.list li {
+    color: #86898f;
+    margin-bottom: 10px;
+    
+}
